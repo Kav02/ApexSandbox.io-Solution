@@ -5,3 +5,5 @@ public Boolean sumEquals(Integer a, Integer b, Integer c) {
     else
         return false    
 }
+
+sumEquals(5,5,10)
