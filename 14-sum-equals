@@ -1,6 +1,6 @@
 public Boolean sumEquals(Integer a, Integer b, Integer c) {
     Integer SumNumbers = a+b;
-    if(SumNumbers== c){
+    if(SumNumbers.equals(C)){
         return true}
     else
         {return false}
