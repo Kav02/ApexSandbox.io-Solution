@@ -1,9 +1,9 @@
 public String aOrAn(String word) {
-    List<String> vowels = new List String {a,e,i,o,u};
+    List<String> vowels = new List <String> {'a','e','i','o','u'};
     for vowel in vowels{
-    if (word.startsWith(vowel)){
-        return 'an '+ word;}
-    else
-        {return 'a ' + word;}
-}
+        if (word.startsWith(vowel)){
+            return 'an '+ word;}
+        else
+            {return 'a ' + word;}
+    }
 }
