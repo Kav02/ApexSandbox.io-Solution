@@ -1,8 +1,10 @@
 public String evenOrOdd(Integer num) {
     Integer remainder = (num/2)
+    String Even = 'even';
+    String Odd = 'odd';
     if (Math.mod(remainder)==0){
-        return 'even';
+        return Even;
     } else {
-        return 'odd'
+        return Odd
     }
 }
