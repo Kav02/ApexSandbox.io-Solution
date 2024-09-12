@@ -1,7 +1,7 @@
 public Boolean isPrime(Integer num) {
     //Dividir el numero entre cada numero desde 2 hasta la mitad del numero
     //Calcular la mitad de num
-    Integer half = Math.Ceil(num/2);
+    Integer half = num/2;
     //Hacer un loop que divida num entre cada uno 
     for (Integer i=2; i<= half; i++){
         //Evaluar si el saldo es 0
