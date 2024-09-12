@@ -1,0 +1,13 @@
+public Boolean isPrime(Integer num) {
+    //Dividir el numero entre cada numero desde 2 hasta la mitad del numero
+    //Calcular la mitad de num
+    Integer half = Round(num/2,0);
+    //Hacer un loop que divida num entre cada uno 
+    for (Integer i=2; i<= half; i++){
+        //Evaluar si el saldo es 0
+        if (Math.mod(num/i)==0){
+            return false;
+        }
+    return true;    
+    } 
+     
