@@ -1,23 +1,26 @@
 public Integer nextPrime(Integer num) {
     
     Integer baseNumber = num + 1;
-    Boolean resultado = false;
+    Boolean resultado = true;
     while (!resultado){
     //Obtener el primo
     //Dividir el numero entre cada numero desde 2 hasta la mitad del numero
     //Calcular la mitad de num
-    Integer half = baseNumber/2;
-    //Hacer un loop que divida num entre cada uno 
-    for (Integer i=2; i<= half; i++){
-        //Evaluar si el saldo es 0
-        if (Math.mod(baseNumber,i)!=0){
-            return baseNumber;
+        Integer half = baseNumber/2;
+        //Hacer un loop que divida num entre cada uno 
+        for (Integer i=2; i<= half; i++){
+            //Evaluar si el saldo es 0
+            if (Math.mod(baseNumber,i)!=0){
+                return baseNumber;
+                }
+            else {
+                return false;
             }
         }
-    } if (!resultado) {
+    if (!resultado) {
         baseNumber++;
-    } 
-    
+        } 
+    }
 }
 
 
