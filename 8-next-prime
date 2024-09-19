@@ -1,7 +1,8 @@
 public Integer nextPrime(Integer num) {
     
     Integer baseNumber = num + 1;
-    for (Integer j=2; j++){
+    Boolean resultado = false;
+    while (!resultado){
     //Obtener el primo
     //Dividir el numero entre cada numero desde 2 hasta la mitad del numero
     //Calcular la mitad de num
@@ -10,10 +11,15 @@ public Integer nextPrime(Integer num) {
     for (Integer i=2; i<= half; i++){
         //Evaluar si el saldo es 0
         if (Math.mod(baseNumber,i)!=0){
-            break;
+            return baseNumber;
             }
         }
-    }
-    return baseNumber;   
+    } if (!resultado) {
+        baseNumber++;
+    } 
     
 }
+
+
+
+
