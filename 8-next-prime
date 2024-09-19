@@ -20,8 +20,10 @@ public Integer nextPrime(Integer num) {
     if (!resultado) {
         baseNumber++;
         } 
+    }else {
+        return baseNumber;
     }
-    return baseNumber;
+    
 }
 
 
