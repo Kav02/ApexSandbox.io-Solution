@@ -1,7 +1,5 @@
 public Integer nextPrime(Integer num) {
     //code here
-}public class Calculation {
-    public static Integer nextPrime(Integer num) {
     Integer baseNumber = num + 1;
     Boolean result = false;
     while (!result){
