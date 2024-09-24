@@ -7,3 +7,12 @@ public Integer rockPaperScissors(String player1, String player2) {
         return 1;
     }
 }
+
+/*
+                           Player 1 
+  Player 2        | Rock   | Paper  | Scissors |
+|-----------------|--------|--------|----------|
+| Rock            |   0    |   1    |     2    |
+| Paper           |   2    |   0    |     1    |
+| Scissors        |   1    |   2    |     0    |
+*/
